@@ -1,0 +1,174 @@
+html,body{
+    height: 100%;
+    width:100%;
+}
+.navbar-brand img{
+   width: 100px;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+}
+.navbar{
+    font-size: 1.2em;
+    padding: 0 10px;
+    border-bottom: 5px solid#0BAB62;
+}
+
+.navbar-nav li a{
+    color: #d5d5d5;
+}
+#home{
+    background:linear-gradient(rgba(26,188,156,0.7), rgba(231,76,60,0.7)), url('./img/5.jpg') no-repeat center center fixed;
+    height: 100%;
+    display: table;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+.landing-text{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.landing-text h1{
+    font-size: 500%;
+    font-weight: 700;
+}
+.landing-text h3{
+    color: black;
+    font-weight: bold;
+}
+section{
+    padding: 60px 0;
+}
+#Servise{
+    background:#333;
+    text-align: center;
+    color: black;
+}
+#Servise h1{
+    color: #0BAB62;
+    font-size: 500%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+#Servise h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family:monospace;
+    text-transform: uppercase;
+}
+small{
+    font-size: 19px;
+    color: rgb(235, 8, 27);
+    font-weight: bold;
+  
+}
+kbd{
+    background: black;
+}
+#projects{
+    background: rgb(134, 133, 133);
+    color: black;
+    text-align: center;
+}
+#projects h1{
+    font-size: 500%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+#Team{
+    background:#333;
+    text-align: center;
+    color: black;
+}
+#Team h1{
+    color: #0BAB62;
+    font-size: 500%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+#Team h2{
+    font-weight: bold;
+    font-size: 28px;
+}
+#Team p{
+    text-decoration: underline;
+    color: #0BAB62;
+    font-style: italic;
+}
+#About-us{
+    background: rgb(134, 133, 133);
+    color: black;
+    text-align: center;
+
+}
+
+#About-us h1{
+    font-size: 500%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+#About-us h3{
+    font-weight: bold;
+}
+
+
+#fixed{
+	background: url('./img/background.jpg') no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+footer{
+	background-color: #333;
+	padding: 20px;
+    color: white;
+    text-align: center;
+    color: black;
+}
+.fa{
+	padding: 15px;
+	font-size: 25px;
+	color: #fff;
+}
+.fa:hover{
+	color: #d5d5d5;
+	text-decoration: none;
+}
+.icon{
+	max-width: 200px;
+}
+
+@media (max-width: 768px){
+	.landing-text h1{
+		font-size: 300%;
+    }
+    #About-us h1{
+        font-size: 300%;
+    }
+    #Servise h1{
+        font-size: 300%;
+    }
+    #Team h1{
+        font-size: 300%;
+    }
+    #projects h1{
+        font-size: 300%;
+    }
+	.fa{
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon{
+		padding: 5%;
+		max-width: 100px;
+	}
+}
