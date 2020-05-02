@@ -4,20 +4,46 @@ html,body{
 }
 .navbar-brand img{
    width: 100px;
-   padding-bottom: 10px;
-   margin-bottom: 10px;
+   padding:5px;
+    margin: auto;
 }
 .navbar{
     font-size: 1.2em;
     padding: 0 10px;
-    border-bottom: 5px solid#0BAB62;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-right: 20px;
+    border-bottom: 5px solid #2ECC71 ;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #2ECC71;
+}
+.main-text{
+    padding: 30px 50px;
+}
+.main-text h1{
+    font-family: 'Poppins', sans-serif;
+    color: #17202A ;
+    font-size: 3.5rem;
+    font-weight: 500;
+    
+}
+.main-text p{
+    font-family: 'Open Sans', sans-serif;
+    color: #17202A ;
+    font-size: 1rem;
+    font-weight: 900;
+}
+.main-text .light{
+    color: #fff;
 }
 
-.navbar-nav li a{
-    color: #d5d5d5;
-}
 #home{
-    background:linear-gradient(rgba(26,188,156,0.7), rgba(231,76,60,0.7)), url('./img/5.jpg') no-repeat center center fixed;
+    background:linear-gradient(rgba(5, 197, 245, 0.472), rgba(230, 31, 9, 0.589)), url('./img/5.jpg') no-repeat center center fixed;
     height: 100%;
     display: table;
     width: 100%;
@@ -27,6 +53,7 @@ html,body{
 .landing-text{
     text-align: center;
     display: table-cell;
+    color: #FDFEFE;
     vertical-align: middle;
 }
 .landing-text h1{
@@ -34,31 +61,41 @@ html,body{
     font-weight: 700;
 }
 .landing-text h3{
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
 }
+.landing-text button{
+    padding: 10px 50px;
+    border: none;
+    border-radius: none;
+    background-color: #2ECC71;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.landing-text button:hover{
+    padding: 10px 50px;
+    border: none;
+    border-radius: none;
+    background-color: #3498DB ;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+
 section{
     padding: 60px 0;
 }
+
 #Servise{
-    background:#333;
+    background:#34495E;
     text-align: center;
     color: black;
 }
-#Servise h1{
-    color: #0BAB62;
-    font-size: 500%;
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
-#Servise h2{
-    font-size: 30px;
-    text-align: center;
-    font-weight: bold;
-    font-family:monospace;
-    text-transform: uppercase;
-}
+
+
 small{
     font-size: 19px;
     color: rgb(235, 8, 27);
@@ -69,58 +106,41 @@ kbd{
     background: black;
 }
 #projects{
-    background: rgb(134, 133, 133);
+    background:#E5E8E8;
     color: black;
     text-align: center;
+    padding: 50px 20px ;
 }
-#projects h1{
-    font-size: 500%;
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
+
 #Team{
-    background:#333;
+    background:#34495E ;
     text-align: center;
     color: black;
 }
-#Team h1{
-    color: #0BAB62;
-    font-size: 500%;
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    padding-bottom: 20px;
-}
+
 #Team h2{
     font-weight: bold;
     font-size: 28px;
 }
-#Team p{
-    text-decoration: underline;
-    color: #0BAB62;
-    font-style: italic;
+.img-circle{
+    border-radius: 50%;
+    border: 3px solid #FDFEFE;
 }
+
 #About-us{
-    background: rgb(134, 133, 133);
+    background:#E5E8E8;
     color: black;
     text-align: center;
 
 }
 
-#About-us h1{
-    font-size: 500%;
-    text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    text-transform: uppercase;
-}
 #About-us h3{
     font-weight: bold;
 }
 
 
 #fixed{
-	background: url('./img/background.jpg') no-repeat center center fixed;
+    background: linear-gradient(rgba(5, 197, 245, 0.322), rgba(9, 230, 108, 0.404)),url('./img/background.jpg') no-repeat center center fixed;
 	display: table;
 	height: 60%;
 	position: relative;
@@ -128,11 +148,11 @@ kbd{
 	background-size: cover;
 }
 footer{
-	background-color: #333;
-	padding: 20px;
-    color: white;
+	background-color: #1B2631 ;
+    padding: 20px;
+    border-top: 5px solid #34495E;
     text-align: center;
-    color: black;
+    color: #FDFEFE;
 }
 .fa{
 	padding: 15px;
@@ -164,11 +184,19 @@ footer{
         font-size: 300%;
     }
 	.fa{
-		font-size: 20px;
+		font-size: 18px;
 		padding: 10px;
 	}
 	.icon{
 		padding: 5%;
 		max-width: 100px;
-	}
+    }
+    .card{
+        margin: 10px 5px;
+        padding: 0px;
+    }
+    footer h4{
+        font-size: 15px;
+        text-align: center;
+    }
 }
